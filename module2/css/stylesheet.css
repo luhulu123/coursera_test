@@ -1,0 +1,122 @@
+* {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    box-sizing: border-box;
+}
+
+h1 {
+    margin: 30px 30px 30px 30px;
+    text-align: center;
+}
+
+
+
+#Chicken.header {
+    background-color: lightcoral;
+}
+
+#Beef.header {
+    background-color: red;
+}
+
+#Sushi.header {
+    background-color: #e6eaac;
+}
+
+p#Beef.header {
+    color: white;
+}
+
+.header {
+    text-align: center;
+    width: 30%;
+    height: 30px;
+    padding: 3px;
+    border-left: 1px;
+    border-right: 0px;
+    border-top: 0px;
+    border-bottom: 1px;
+    border-color: black;
+    border-style: solid;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.text {
+    padding: 30px 10px 5px 10px;
+}
+
+@media (min-width: 992px) {
+   .col-lg-4 {
+      float: left;
+      width: 33.33%;
+      
+    }
+    
+    .box {
+        position: relative;
+        background-color: gray;
+        border: 1px solid black;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    
+    .col-md-6 {
+        width: 50%;
+        float: left;
+        
+    }
+
+    #col3.col-md-6 {
+        width: 100%;
+    }
+
+    .box {
+        position: relative;
+        background-color: gray;
+        border: 1px solid black;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        margin-top: 30px; */
+    }
+
+    #third.box {
+        position: relative;
+        background-color: gray;
+        border: 1px solid black;
+        margin-left: auto;
+        margin-right: auto;
+        width: 95%;
+        margin-top: 30px; */
+    }
+}
+
+@media (max-width: 767px) {
+    
+    .col-xs {
+        box-sizing: border border-box;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .box {
+        position: relative;
+        background-color: gray;
+        width: 100%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        border: 1px solid black;
+    }
+}
+
+
+  
